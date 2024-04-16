@@ -1,0 +1,62 @@
+
+
+
+/* Animation for language icons */
+.language{
+    opacity: .7;
+    margin: 10px 6px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    filter: grayscale(100%);
+
+}
+.language:hover{
+    opacity: 1;
+    top: -10px;
+    cursor: pointer;
+    filter: grayscale(0%)
+    
+}
+
+/* style for carousel images */
+.item{
+    filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    
+}
+.item:hover{
+    filter: brightness(100%);
+}
+
+
+/* Projects arrow point animation */
+.arrow-right{
+    margin: 10px 6px;
+    position: relative;
+    right: 0;
+    transition: top ease 0.5s;
+}
+
+
+.arrow-left{
+    margin: 10px 6px;
+    position: relative;
+    left: 0;
+    transition: top ease 0.5s;
+}
+
+
+.project:hover{
+    .arrow-left{
+        left: -18px;
+    }
+    .arrow-right{
+        right: -18px;
+    }
+}
+
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
