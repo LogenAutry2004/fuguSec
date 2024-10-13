@@ -54,7 +54,8 @@
             <p class="lead my-4 text-muted">Cyber Security provided by <span class="text-warning">UCF</span> undergraduate <span class="font-weight-bold">Logen Autry</span></p>
             <a data-bs-toggle="offcanvas" href="#offcanvasContact" class="btn btn-danger btn-lg">Get in Touch</a>
             <a href="https://github.com/LogenAutry2004" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg"><i class="bi bi-github"></i></a>
-            <a href="assets/CompTIA A+ ce certificate.pdf"><img src="assets/Aplus Logo Certified CE.png" class="img-fluid mx-5" height="60px" width="60px" alt="CompTIA A+"></a>
+            <a href="assets/CompTIA A+ ce certificate.pdf"><img src="assets/Aplus Logo Certified CE.png" class="img-fluid mx-1" height="60px" width="60px" alt="CompTIA A+"></a>
+            <a href="assets/CompTIA Network+ ce certificate.pdf"><img src="assets/NetworkPlus Logo Certified CE.png" class="img-fluid mx-1" height="60px" width="60px" alt="CompTIA A+"></a>
           </div>
           <div class="col-md-6 text-center d-none d-md-block">
             <!-- tooltip -->
@@ -152,24 +153,30 @@
             <p class="display-6">Certifications</p>
 
             <!---Cert tabs-->
-            <nav>
-              <div class="nav nav-tabs" id="nav-tab" role="tablist">
-      
-                <button class="nav-link active" id="nav-a-tab" data-bs-toggle="tab" data-bs-target="#nav-a" type="button" role="tab" aria-controls="nav-hocv" aria-selected="true">Comptia A+</button>
-        
-              </div>
-
-            </nav>
-
-            <div class="tab-content" id="nav-tabContent">
-      
-              <div class="tab-pane fade show active p-3" id="nav-a" role="tabpanel" aria-labelledby="nav-a">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="comptiaA-tab" data-bs-toggle="tab" data-bs-target="#comp-a-pane" type="button" role="tab" aria-controls="comp-a-pane" aria-selected="true">CompTIA A+</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="comptiaNet-tab" data-bs-toggle="tab" data-bs-target="#comptia-net-pane" type="button" role="tab" aria-controls="comp-net-pane" aria-selected="false">Comptia Net+</button>
+              </li>
+              <li class="nav-item" role="presentation"></li>
+                <button class="nav-link" id="comptiaCios-tab" data-bs-toggle="tab" data-bs-target="#comptia-cios-pane" type="button" role="tab" aria-controls="comp-cios-pane" aria-selected="false">Comptia CIOS</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="comp-a-pane" role="tabpanel" aria-labelledby="a-tab" tabindex="0">
                 <h2 class="display-4">Comptia A+</h2>
                 <iframe src="assets/CompTIA A+ ce certificate.pdf" height="550" width="650"></iframe>
               </div>
-  
-              
-              
+              <div class="tab-pane fade" id="comptia-net-pane" role="tabpanel" aria-labelledby="net-tab" tabindex="0">
+                <h2 class="display-4">Comptia Net+</h2>
+                <iframe src="assets/CompTIA Network+ ce certificate.pdf" height="550" width="650"></iframe>
+              </div>
+              <div class="tab-pane fade" id="comptia-cios-pane" role="tabpanel" aria-labelledby="cios-tab" tabindex="0">
+                <h2 class="display-4">Comptia CIOS</h2>
+                <iframe src="assets/CompTIA IT Operations Specialist – CIOS.pdf" height="550" width="650"></iframe>
+              </div>
             </div>
             
           </div>
